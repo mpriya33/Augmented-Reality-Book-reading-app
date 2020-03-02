@@ -1,5 +1,8 @@
 ScriptsOnlyBuild:
   usedScripts:
+    Assembly-CSharp-firstpass.dll:
+    - Lean.Touch.LeanPinchScale
+    - Lean.Touch.LeanTouch
     Assembly-CSharp.dll:
     - AmbientLightManager
     - Call
@@ -7,8 +10,7 @@ ScriptsOnlyBuild:
     - FrameRateSettings
     - Havelockvbscript
     - InitErrorHandler
-    - Lean.Touch.LeanPinchScale
-    - Lean.Touch.LeanTouch
+    - Mathquestion
     - MessageBox
     - Myrotate
     - Myscale
@@ -191,6 +193,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 11774}
     - Class: 114
       Script: {instanceID: 11794}
+    - Class: 114
+      Script: {instanceID: 37808}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -225,13 +229,13 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 40c7e7f1a2edc2c9a8f8b3dda0fe5aad
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanPongBall
   - hash:
       serializedVersion: 2
       Hash: ce669872a2be11bc686ea22961d8a3bb
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: 
     className: Joystick
   - hash:
@@ -243,13 +247,13 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 47813da322a941b83761134dfbd53b94
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanSpawnWithFinger
   - hash:
       serializedVersion: 2
       Hash: 20e34497709a0d6b8581a770cf8f0be6
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Localization
     className: LeanLocalizedAudioSource
   - hash:
@@ -261,13 +265,13 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: a1c00d1e10cbc9ad31c5a155293e0dbc
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanFingerSet
   - hash:
       serializedVersion: 2
       Hash: 7f959f067fec53f0ef89507d954b2baf
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Localization
     className: LeanLanguageCSV
   - hash:
@@ -279,7 +283,7 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: dc628856964e5e342cefa6c4a581b0e0
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanTwistCamera
   - hash:
@@ -297,25 +301,25 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 549fae01e40ade0b062e59a15ada4c04
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Localization
     className: LeanLocalizedSpriteRenderer
   - hash:
       serializedVersion: 2
       Hash: 5d89e2bacb4b183bce139f3b3d909bcf
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanGestureToggle
   - hash:
       serializedVersion: 2
       Hash: d06f89c96382d672bf247f6dac8ee03e
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Localization
     className: LeanLocalizedTextFont
   - hash:
       serializedVersion: 2
       Hash: 64393f806f01cce2abe1b9a8fa6e332d
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanShapeDetector
   - hash:
@@ -327,7 +331,7 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 2d3ee47d73db23a12e7e5e0b43556288
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanFingerDown
   - hash:
@@ -339,7 +343,7 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 47b773aafac254ca365722e1da7323a1
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanManualTranslate
   - hash:
@@ -393,7 +397,7 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 1479a28460ac4555102a0bb4c1e87a2b
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanSelectableTime
   - hash:
@@ -603,7 +607,7 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanTouchEvents
   - hash:
@@ -621,19 +625,19 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: d0a4ae68074de4b1763e86da0a9e6490
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Localization
     className: LeanLocalizedDropdown
   - hash:
       serializedVersion: 2
       Hash: a1fcc866397a836af63817d24343caca
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Common.Examples
     className: LeanDocumentation
   - hash:
       serializedVersion: 2
       Hash: dbda50f8aae04cd809bdbbce69f865cc
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanSelect
   - hash:
@@ -831,13 +835,13 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 7a01835c4b376aef62ea868145abd4dc
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanFingerTapExpired
   - hash:
       serializedVersion: 2
       Hash: a039c37a4c3a754651df7a269d937346
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanMultiSwipe
   - hash:
@@ -855,7 +859,7 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: fe29ae2aa38c9237768b1f22cddf449d
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanTwistRotateAxis
   - hash:
@@ -873,25 +877,25 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: eb27b06c0eaa67d17f6c84edaee630af
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanRoll
   - hash:
       serializedVersion: 2
       Hash: cf1ad9af57e51d3949ba525fb4534068
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanDestroy
   - hash:
       serializedVersion: 2
       Hash: 9e27f44bbf48228f203a37254d40f8ae
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: 
     className: JoystickSetterExample
   - hash:
       serializedVersion: 2
       Hash: ed228351b76b5af705c5ba7a49fb9281
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanDragDeformMesh
   - hash:
@@ -903,7 +907,7 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 4ad1d6459d294e13b9ec46b02b695cf8
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Localization
     className: LeanLocalizedTextMeshProUGUIFont
   - hash:
@@ -915,13 +919,13 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: f5d15aed0327813d8dd40f68f1972452
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanSpawnBetween
   - hash:
       serializedVersion: 2
       Hash: 6fc58e63e69705c3f7f5219cb46d8d6e
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanConstrainToDirection
   - hash:
@@ -945,7 +949,7 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: f27e63c9f2c5e9206771e0696df87f86
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanRotateToTransform
   - hash:
@@ -969,7 +973,7 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: e988e3b046b67770f5a68c4b211946d4
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Localization
     className: LeanLocalizedRenderer
   - hash:
@@ -981,7 +985,7 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 549fae01e40ade0b062e59a15ada4c04
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Localization
     className: LeanLocalizedImage
   - hash:
@@ -999,13 +1003,13 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 6c1ab29ddfcd6014cccb0aadc55da469
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanPlane
   - hash:
       serializedVersion: 2
       Hash: f359cf77c411104dd21b487bd7ebecb8
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanMouseWheel
   - hash:
@@ -1017,13 +1021,13 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: b89035c51a0f4fc21bc1c8393304056e
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanDragLine
   - hash:
       serializedVersion: 2
       Hash: 77ffc8f4226334e9f550086ebdd12841
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanFingerSwipe
   - hash:
@@ -1035,7 +1039,7 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 6b0365728da0659ead138e33836038d2
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanReplayFinger
   - hash:
@@ -1047,7 +1051,7 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 8b74e851f6be2b0e8576547830a777d0
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanMultiPinch
   - hash:
@@ -1065,7 +1069,7 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 5f0a1878b4792ac6d0fe1b5ac4d62202
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Localization
     className: LeanToken
   - hash:
@@ -1095,7 +1099,7 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 7860832397fc33637bafb3799a769330
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanFollow
   - hash:
@@ -1341,7 +1345,7 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 5a96e1bcd2eca7ee45c00d90e54af4fe
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanChaseRigidbody
   - hash:
@@ -1563,7 +1567,7 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 9fa74bdc972e293802cba46127eda51e
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanDropCount
   - hash:
@@ -1581,19 +1585,19 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: ca2ca37ebdd5efb3348ba65185071cb5
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanPitchYaw
   - hash:
       serializedVersion: 2
       Hash: ce669872a2be11bc686ea22961d8a3bb
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: 
     className: FloatingJoystick
   - hash:
       serializedVersion: 2
       Hash: a73cc7e0d8575dd7105e0f0616a7253a
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanPulseScale
   - hash:
@@ -1629,7 +1633,7 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 16b319a1ac7e425a5308867b8aa0b7eb
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Localization
     className: LeanLocalization
   - hash:
@@ -1641,7 +1645,7 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: f7af6c2343b57f2cf7337bc0234e229e
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanSelectableBlock
   - hash:
@@ -1653,7 +1657,7 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: f130a8423e6424a57c8b7679ec028c5d
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanTwistRotate
   - hash:
@@ -1707,13 +1711,13 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 5bfb91016f5c8f5299e7bac4efe06932
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanMultiTap
   - hash:
       serializedVersion: 2
       Hash: 94787cde64aea8d2ddd6cf5584f4b697
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanInfoText
   - hash:
@@ -1737,7 +1741,7 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 7c5d03d32c7c864e5cee46c60824be93
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanPitchYawAutoRotate
   - hash:
@@ -1767,7 +1771,7 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: c506f8c6f4594c4565954a640d54542b
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanSelectableDrop
   - hash:
@@ -1791,7 +1795,7 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: bb38cc0904c660000566ba4c623acfc9
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanDragTranslateRigidbody2D
   - hash:
@@ -1809,13 +1813,13 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 83d7b82014876d355665d0e75b951373
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanManualTranslateRigidbody2D
   - hash:
       serializedVersion: 2
       Hash: 1e52e0c43c8936b4b7a52d7c010a0c45
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanFingerDownCanvas
   - hash:
@@ -1833,13 +1837,13 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: a4a8c6224b1d84d71178bfc703041187
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanDragSelect
   - hash:
       serializedVersion: 2
       Hash: 62f9a47efdb0d30b6f2a0fdbc8d7cafc
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanSelectableDial
   - hash:
@@ -1857,13 +1861,13 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 0089292b2f09c9d87fab2e09a06486e2
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanDrop
   - hash:
       serializedVersion: 2
       Hash: 72be464cae07429f847cf1e15217fca3
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Localization
     className: LeanLocalizedTextMeshProUGUI
   - hash:
@@ -1875,13 +1879,13 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 964dce81080816542d4e5b1440191200
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanTouch
   - hash:
       serializedVersion: 2
       Hash: 4326d1e3ad2be563855e0ee0cac8ddb9
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Common.Examples
     className: LeanCircuit
   - hash:
@@ -1911,13 +1915,13 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 72be464cae07429f847cf1e15217fca3
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Localization
     className: LeanLocalizedTextMesh
   - hash:
       serializedVersion: 2
       Hash: 2018f6ab5f990d383474848f10e7cfa7
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanSelectableSelected
   - hash:
@@ -1929,7 +1933,7 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: bb38cc0904c660000566ba4c623acfc9
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanDragTranslateRigidbody
   - hash:
@@ -1941,19 +1945,19 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 4abb42134c98d19ba1f78cfa108f6dce
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanSwap
   - hash:
       serializedVersion: 2
       Hash: 40b1cdd88abc88f8ee714b9bfc4d5da1
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanManualVelocity
   - hash:
       serializedVersion: 2
       Hash: 5a96e1bcd2eca7ee45c00d90e54af4fe
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanChaseRigidbody2D
   - hash:
@@ -1965,7 +1969,7 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: c419257ca9a73c550a7b7c65f67deb6a
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanDragCamera
   - hash:
@@ -2019,13 +2023,13 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 0b5ade63cb4f50f0b83c6f58d6350c25
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanMultiPull
   - hash:
       serializedVersion: 2
       Hash: 2bdbdfd29ae156a056b41a2a9bfe43ab
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanConstrainToColliders
   - hash:
@@ -2037,7 +2041,7 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 824e8d4cb47ffd88ddf959dbd4526585
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: 
     className: DynamicJoystick
   - hash:
@@ -2085,13 +2089,13 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: ce669872a2be11bc686ea22961d8a3bb
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: 
     className: FixedJoystick
   - hash:
       serializedVersion: 2
       Hash: 41e12cbf2fc1e0d150e38818380ef7fe
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanPath
   - hash:
@@ -2109,7 +2113,7 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: bd6ba1f6be3b456847e93ad77635b346
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanSelectable
   - hash:
@@ -2121,13 +2125,13 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 065cdfa0c90f91b8c034d1dc1793da67
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanStepValue2D
   - hash:
       serializedVersion: 2
       Hash: 2ad8424c9afcacef2a3b557ad4936771
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanManualSwipe
   - hash:
@@ -2139,13 +2143,13 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: da5610c976611be6478e2d6da6e5f275
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanFingerOld
   - hash:
       serializedVersion: 2
       Hash: 75260295474ef2d59d34196afb2549aa
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanManualVelocity2D
   - hash:
@@ -2169,13 +2173,13 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 564363b71973ff9b7c6dafd1d3a1fcfb
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Common.Examples
     className: LeanLinkTo
   - hash:
       serializedVersion: 2
       Hash: 254f15097e2a3f696d7840f0ef8a6263
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanSelectableCount
   - hash:
@@ -2193,7 +2197,7 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 651191f11bfb6efb364b571ba31409f4
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanMultiSet
   - hash:
@@ -2217,13 +2221,13 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 95c1cfaedb4c9235f57570bddd2f0d86
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanPinchScale
   - hash:
       serializedVersion: 2
       Hash: 3844cb832f9518be7686c937a34f4dc7
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanSwipeEdge
   - hash:
@@ -2247,13 +2251,13 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 77ffc8f4226334e9f550086ebdd12841
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanFingerFlick
   - hash:
       serializedVersion: 2
       Hash: ab74db3112376c1b98946df54ab5e472
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Common.Examples
     className: LeanMarker
   - hash:
@@ -2265,7 +2269,7 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 72be464cae07429f847cf1e15217fca3
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Localization
     className: LeanLocalizedText
   - hash:
@@ -2337,7 +2341,7 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 528e9858840cb8370d93939fff6b42d9
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: 
     className: JoystickPlayerExample
   - hash:
@@ -2349,7 +2353,7 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 1a789b3e4759967465acf6dac8ed39dc
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanConstrainToCollider
   - hash:
@@ -2361,13 +2365,13 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: ec54355e8ab2c0b2323fbfc09e31bc70
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanSelectableDragTorque
   - hash:
       serializedVersion: 2
       Hash: 0e252809328cc064433ebed8e03533e2
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanSelectionBox
   - hash:
@@ -2385,31 +2389,31 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 9277194e3007f91c41cc4dd392ebc5cb
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanSelectableSpriteRendererColor
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Common.Examples
     className: LeanOpenUrl
   - hash:
       serializedVersion: 2
       Hash: d06f89c96382d672bf247f6dac8ee03e
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Localization
     className: LeanLocalizedTextMeshFont
   - hash:
       serializedVersion: 2
       Hash: ed2c84cb05ae71b78466d49a3c3d1d59
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanFingerTap
   - hash:
       serializedVersion: 2
       Hash: 833ca6891b09902182ac3a3ca19ab24e
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanRotateToRigidbody2D
   - hash:
@@ -2421,13 +2425,13 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: f8f527f5803f4b1015d8b93758d72f93
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanPinchCamera
   - hash:
       serializedVersion: 2
       Hash: fb40c936b55b941f573f0c2d99c129a4
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanShape
   - hash:
@@ -2439,7 +2443,7 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 4b24abb363c85e826692a694e6d9097e
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanManualRotate
   - hash:
@@ -2451,7 +2455,7 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 7bbcffe32da00329d8b2f9f2639aed10
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanManualTranslateRigidbody
   - hash:
@@ -2463,25 +2467,25 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 9277194e3007f91c41cc4dd392ebc5cb
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanSelectableGraphicColor
   - hash:
       serializedVersion: 2
       Hash: 93b70e78d9d793f06d520331159d08b9
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanMultiSetCanvas
   - hash:
       serializedVersion: 2
       Hash: c838d6539856a62597b104796b455d7b
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanRevertTransform
   - hash:
       serializedVersion: 2
       Hash: eb957818dc76efe62496e8b4c214876e
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanMaintainDistance
   - hash:
@@ -2493,7 +2497,7 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 2121006cbf3554f331de83c71a4ef3d4
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Localization
     className: LeanPhrase
   - hash:
@@ -2511,7 +2515,7 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 17e7ebb7a91e7943d3020a65b55f5bb2
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanDragTranslate
   - hash:
@@ -2529,25 +2533,25 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 93eba1d696f29203b1e2bbd80e30edbf
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanDragColorMesh
   - hash:
       serializedVersion: 2
       Hash: 0155f6cc026767841ef6c9bb6eef3faa
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanConstrainScale
   - hash:
       serializedVersion: 2
       Hash: cc89a7f65b3dca64feddfd8acfa3294b
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanSelectablePressureScale
   - hash:
       serializedVersion: 2
       Hash: da5610c976611be6478e2d6da6e5f275
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanFingerUp
   - hash:
@@ -2583,13 +2587,13 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 4e0bfd1d29eec1f3cda6b997a7d81004
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanDragTrail
   - hash:
       serializedVersion: 2
       Hash: f25fbff89282f42f082ee68f9fb1f410
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanMultiTwist
   - hash:
@@ -2601,13 +2605,13 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: f0e792afefd9f5d684aaa5a3dd8994f2
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanSpawn
   - hash:
       serializedVersion: 2
       Hash: 5a96e1bcd2eca7ee45c00d90e54af4fe
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanChase
   - hash:
@@ -2829,7 +2833,7 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 23c103ffab02da51bbe627c487f3b89b
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanAnySelected
   - hash:
@@ -2841,13 +2845,13 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 8dc6fd5aab05e5a73dbb4c3bf5a979a6
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanFingerHeld
   - hash:
       serializedVersion: 2
       Hash: 9dac16f3efc511835ac976dfae55f580
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: 
     className: VariableJoystick
   - hash:
@@ -2859,7 +2863,7 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 330f62fcfa21b2047340eab154927cfc
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanSelectableRendererColor
   - hash:
@@ -3075,7 +3079,7 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 0f6cc30268e4074766931a282d71934e
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
     className: LeanDragTranslateAlong
   - hash:
@@ -3084,6 +3088,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Mathquestion
   platform: 13
   scenePathNames:
   - Assets/Scenes/1st one.unity
