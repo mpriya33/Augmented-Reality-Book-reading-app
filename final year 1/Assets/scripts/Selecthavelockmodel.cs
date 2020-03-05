@@ -11,7 +11,8 @@ public class Selecthavelockmodel : MonoBehaviour
     private Text labeltext1;
     private GameObject BG;
      public GameObject model;
-    private Myrotate somescript;
+
+   // private Myrotate somescript;
 
     void Start()
     {
@@ -36,7 +37,7 @@ public class Selecthavelockmodel : MonoBehaviour
         labeltext1 = GameObject.Find("UItext1").GetComponent<Text>();
         labeltext1.gameObject.SetActive(false);
 
-        somescript = model.GetComponent<Myrotate>();
+        //somescript = model.GetComponent<Myrotate>();
         
 
 
@@ -56,7 +57,7 @@ public class Selecthavelockmodel : MonoBehaviour
                     BG.SetActive(true);
                     labelhead.gameObject.SetActive(true);
                     labeltext.gameObject.SetActive(true);
-                somescript.enabled = false;
+                //somescript.enabled = false;
 
 
 
@@ -68,7 +69,7 @@ public class Selecthavelockmodel : MonoBehaviour
                 BG.SetActive(true);
                 labelhead1.gameObject.SetActive(true);
                 labeltext1.gameObject.SetActive(true);
-                somescript.enabled = false;
+                //somescript.enabled = false;
             }
            
             else
@@ -79,7 +80,7 @@ public class Selecthavelockmodel : MonoBehaviour
                 labeltext.gameObject.SetActive(false);
                 labelhead1.gameObject.SetActive(false);
                 labeltext1.gameObject.SetActive(false);
-                somescript.enabled = true;
+                //somescript.enabled = true;
             }
 
 
@@ -106,7 +107,7 @@ public class Selecthavelockmodel : MonoBehaviour
                 labeltext1.gameObject.SetActive(true);
                 labelhead.gameObject.SetActive(false);
                 labeltext.gameObject.SetActive(false);
-                somescript.enabled = false;
+                //somescript.enabled = false;
 
             }
         else if (Physics.Raycast(ray, out hit) && hit.collider.gameObject.tag=="build2")
@@ -119,7 +120,7 @@ public class Selecthavelockmodel : MonoBehaviour
                 labeltext.gameObject.SetActive(true);
                 labelhead1.gameObject.SetActive(false);
                 labeltext1.gameObject.SetActive(false);
-                somescript.enabled = false;
+                //somescript.enabled = false;
                 
             }
             else
@@ -129,7 +130,7 @@ public class Selecthavelockmodel : MonoBehaviour
                 labeltext1.gameObject.SetActive(false);
                 labelhead.gameObject.SetActive(false);
                 labeltext.gameObject.SetActive(false);
-                somescript.enabled = true;
+                //somescript.enabled = true;
 
             }
 

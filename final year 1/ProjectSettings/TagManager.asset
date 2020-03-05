@@ -12,6 +12,9 @@ TagManager:
   - salehouse2
   - salehouse3
   - salehouse4
+  - myhousewalls
+  - myhousefloors
+  - garagedoor
   layers:
   - Default
   - TransparentFX

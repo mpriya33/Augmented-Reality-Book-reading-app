@@ -44,13 +44,16 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/SamplesResources/Scenes/3-VuMarks.unity
     guid: d9b53b25a285640cf8ac170a80603e34
-  - enabled: 1
-    path: Assets/Scenes/1st one.unity
-    guid: f6d496ab4b63e2e4697c28b60b6570b0
   - enabled: 0
     path: Assets/Plugins/Lean/Touch/Examples/TwistRotateCustomAxis.unity
     guid: 1e746ea22b442744c8a81882c3144327
   - enabled: 0
     path: Assets/Plugins/Lean/Touch+/Examples/PressureScale.unity
     guid: 7e0ed4dafb992d842bf5a1a373890b5b
+  - enabled: 1
+    path: Assets/Scenes/1st one.unity
+    guid: f6d496ab4b63e2e4697c28b60b6570b0
+  - enabled: 1
+    path: Assets/Scenes/first person interior.unity
+    guid: d0e84dbf3d1f27b448c1a2fb941480d3
   m_configObjects: {}

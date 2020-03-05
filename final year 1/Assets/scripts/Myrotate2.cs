@@ -4,33 +4,28 @@ using UnityEngine;
 
 public class Myrotate2 : MonoBehaviour
 {
-    public float rotationSpeed1 = 180f;
-    private bool isHit=false;
+    [SerializeField] [Range(0f, 5f)] float lerpTime;
+    [SerializeField] Vector3[] myangles;
+
+    int angleindex;
+    int len;
+    float t=0f;
+    
     void Start()
     {
-        
+        len = myangles.Length;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (isHit)
+        transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.Euler(myangles[angleindex]), lerpTime * Time.deltaTime);
+        t = Mathf.Lerp(t, 1f, lerpTime * Time.deltaTime);
+        if (t > .9f)
         {
-            float rotationX = Input.GetAxis("Mouse X") * rotationSpeed1 * Mathf.Deg2Rad;
-            transform.Rotate(Vector3.down, -rotationX, Space.World);
-           
+            t = 0f;
+            angleindex = Random.Range(0, len - 1);
         }
-        else
-        {
-            
-        }
-       
-
-    }
-
-    public void Beenhit1()
-    {
-        isHit = true;
     }
 
 
