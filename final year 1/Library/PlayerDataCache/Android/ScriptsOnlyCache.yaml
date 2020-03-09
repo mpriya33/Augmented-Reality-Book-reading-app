@@ -1,19 +1,22 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp-firstpass.dll:
-    - FixedJoystick
+    - FCP_SpriteMeshEditor
+    - FlexibleColorPicker
+    - Lean.Touch.LeanDragDeformMesh
+    - Lean.Touch.LeanFingerTap
     - Lean.Touch.LeanPinchScale
+    - Lean.Touch.LeanSelect
+    - Lean.Touch.LeanSelectable
+    - Lean.Touch.LeanSelectableRendererColor
     - Lean.Touch.LeanTouch
     - Lean.Touch.LeanTwistRotateAxis
-    - UnityStandardAssets.Characters.FirstPerson.HeadBob
-    - UnityStandardAssets.Characters.FirstPerson.RigidbodyFirstPersonController
     Assembly-CSharp.dll:
     - AmbientLightManager
+    - Applycolor
     - Call
     - CameraSettings
-    - Changematerialonclick
-    - Firstpersonsetup
-    - FixedTouchField
+    - Checkinterior
     - FrameRateSettings
     - Garagedoorpen
     - Havelockmodelrotate
@@ -21,16 +24,18 @@ ScriptsOnlyBuild:
     - InitErrorHandler
     - Mathquestion
     - MessageBox
+    - Movescript
     - Myrotate
     - Myscale
     - Myslideshow
+    - Rotateview
+    - SHAPECHANGECONTROL
     - Selecthavelockmodel
     - Soundcontroller
     - StatusMessage
     - Tunecontroller
     - VideoController
     - VideoTrackableEventHandler
-    - changescene
     - links
     - myrotate4
     Unity.TextMeshPro.dll:
@@ -41,23 +46,26 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.EventTrigger
     - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.ContentSizeFitter
+    - UnityEngine.UI.Dropdown
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.HorizontalLayoutGroup
     - UnityEngine.UI.Image
+    - UnityEngine.UI.InputField
     - UnityEngine.UI.LayoutElement
+    - UnityEngine.UI.Mask
+    - UnityEngine.UI.ScrollRect
     - UnityEngine.UI.Text
     - UnityEngine.UI.Toggle
     - UnityEngine.UI.VerticalLayoutGroup
@@ -124,114 +132,150 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9708}
     - Class: 114
-      Script: {instanceID: 9822}
+      Script: {instanceID: 9762}
     - Class: 114
       Script: {instanceID: 9824}
     - Class: 114
       Script: {instanceID: 9826}
     - Class: 114
+      Script: {instanceID: 9828}
+    - Class: 114
       Script: {instanceID: 9830}
     - Class: 114
-      Script: {instanceID: 9836}
+      Script: {instanceID: 9832}
     - Class: 114
-      Script: {instanceID: 9840}
+      Script: {instanceID: 9834}
     - Class: 114
-      Script: {instanceID: 9844}
+      Script: {instanceID: 9838}
     - Class: 114
-      Script: {instanceID: 9880}
+      Script: {instanceID: 9842}
+    - Class: 114
+      Script: {instanceID: 9846}
+    - Class: 114
+      Script: {instanceID: 9848}
+    - Class: 114
+      Script: {instanceID: 9854}
+    - Class: 114
+      Script: {instanceID: 9874}
     - Class: 114
       Script: {instanceID: 9882}
     - Class: 114
       Script: {instanceID: 9884}
     - Class: 114
-      Script: {instanceID: 9902}
+      Script: {instanceID: 9886}
     - Class: 114
-      Script: {instanceID: 9964}
+      Script: {instanceID: 9904}
+    - Class: 114
+      Script: {instanceID: 9952}
     - Class: 114
       Script: {instanceID: 9966}
     - Class: 114
       Script: {instanceID: 9968}
     - Class: 114
-      Script: {instanceID: 9978}
+      Script: {instanceID: 9970}
     - Class: 114
-      Script: {instanceID: 9982}
+      Script: {instanceID: 9980}
     - Class: 114
-      Script: {instanceID: 9986}
+      Script: {instanceID: 9984}
     - Class: 114
-      Script: {instanceID: 9990}
+      Script: {instanceID: 9988}
     - Class: 114
-      Script: {instanceID: 10024}
+      Script: {instanceID: 9992}
     - Class: 114
-      Script: {instanceID: 10034}
+      Script: {instanceID: 10026}
     - Class: 114
-      Script: {instanceID: 10082}
+      Script: {instanceID: 10036}
     - Class: 114
-      Script: {instanceID: 10312}
+      Script: {instanceID: 10084}
     - Class: 114
-      Script: {instanceID: 10384}
+      Script: {instanceID: 10138}
     - Class: 114
-      Script: {instanceID: 10450}
+      Script: {instanceID: 10314}
     - Class: 114
-      Script: {instanceID: 10472}
+      Script: {instanceID: 10386}
     - Class: 114
-      Script: {instanceID: 10478}
+      Script: {instanceID: 10452}
     - Class: 114
-      Script: {instanceID: 10492}
+      Script: {instanceID: 10474}
     - Class: 114
-      Script: {instanceID: 10502}
+      Script: {instanceID: 10480}
     - Class: 114
-      Script: {instanceID: 10524}
+      Script: {instanceID: 10494}
     - Class: 114
-      Script: {instanceID: 10562}
+      Script: {instanceID: 10504}
     - Class: 114
-      Script: {instanceID: 10584}
+      Script: {instanceID: 10526}
     - Class: 114
-      Script: {instanceID: 10592}
+      Script: {instanceID: 10564}
     - Class: 114
-      Script: {instanceID: 10668}
+      Script: {instanceID: 10586}
     - Class: 114
-      Script: {instanceID: 10914}
+      Script: {instanceID: 10594}
     - Class: 114
-      Script: {instanceID: 10934}
+      Script: {instanceID: 10670}
     - Class: 114
-      Script: {instanceID: 10992}
+      Script: {instanceID: 10760}
     - Class: 114
-      Script: {instanceID: 11024}
+      Script: {instanceID: 10904}
     - Class: 114
-      Script: {instanceID: 11048}
+      Script: {instanceID: 10920}
     - Class: 114
-      Script: {instanceID: 11170}
+      Script: {instanceID: 10940}
     - Class: 114
-      Script: {instanceID: 11174}
+      Script: {instanceID: 10998}
+    - Class: 114
+      Script: {instanceID: 11030}
+    - Class: 114
+      Script: {instanceID: 11054}
+    - Class: 114
+      Script: {instanceID: 11176}
+    - Class: 114
+      Script: {instanceID: 11180}
     - Class: 114
       Script: {instanceID: 11192}
     - Class: 114
-      Script: {instanceID: 11206}
+      Script: {instanceID: 11200}
     - Class: 114
-      Script: {instanceID: 11302}
+      Script: {instanceID: 11214}
     - Class: 114
-      Script: {instanceID: 11412}
+      Script: {instanceID: 11310}
     - Class: 114
-      Script: {instanceID: 11650}
+      Script: {instanceID: 11316}
+    - Class: 114
+      Script: {instanceID: 11420}
+    - Class: 114
+      Script: {instanceID: 11460}
+    - Class: 114
+      Script: {instanceID: 11660}
     - Class: 114
       Script: {instanceID: 11690}
     - Class: 114
-      Script: {instanceID: 11772}
+      Script: {instanceID: 11700}
     - Class: 114
-      Script: {instanceID: 11788}
+      Script: {instanceID: 11782}
     - Class: 114
-      Script: {instanceID: 12036}
+      Script: {instanceID: 11798}
     - Class: 114
-      Script: {instanceID: 12060}
+      Script: {instanceID: 12046}
     - Class: 114
-      Script: {instanceID: 112020}
+      Script: {instanceID: 12070}
     - Class: 114
-      Script: {instanceID: 372196}
+      Script: {instanceID: 12082}
     - Class: 114
-      Script: {instanceID: 532802}
+      Script: {instanceID: 12086}
+    - Class: 114
+      Script: {instanceID: 193580}
+    - Class: 114
+      Script: {instanceID: 247360}
+    - Class: 114
+      Script: {instanceID: 247362}
+    - Class: 114
+      Script: {instanceID: 248992}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
       Script: {instanceID: 0}
     - Class: 136
       Script: {instanceID: 0}
@@ -252,91 +296,6 @@ ScriptsOnlyBuild:
     - Class: 329
       Script: {instanceID: 0}
     - Class: 1183024399
-      Script: {instanceID: 0}
-    Assets/Scenes/first person interior.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
-    - Class: 23
-      Script: {instanceID: 0}
-    - Class: 28
-      Script: {instanceID: 0}
-    - Class: 33
-      Script: {instanceID: 0}
-    - Class: 43
-      Script: {instanceID: 0}
-    - Class: 48
-      Script: {instanceID: 0}
-    - Class: 54
-      Script: {instanceID: 0}
-    - Class: 64
-      Script: {instanceID: 0}
-    - Class: 65
-      Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
-    - Class: 90
-      Script: {instanceID: 0}
-    - Class: 95
-      Script: {instanceID: 0}
-    - Class: 104
-      Script: {instanceID: 0}
-    - Class: 108
-      Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 9700}
-    - Class: 114
-      Script: {instanceID: 9822}
-    - Class: 114
-      Script: {instanceID: 9824}
-    - Class: 114
-      Script: {instanceID: 9830}
-    - Class: 114
-      Script: {instanceID: 9836}
-    - Class: 114
-      Script: {instanceID: 9844}
-    - Class: 114
-      Script: {instanceID: 9880}
-    - Class: 114
-      Script: {instanceID: 9882}
-    - Class: 114
-      Script: {instanceID: 10320}
-    - Class: 114
-      Script: {instanceID: 10776}
-    - Class: 114
-      Script: {instanceID: 10882}
-    - Class: 114
-      Script: {instanceID: 11214}
-    - Class: 114
-      Script: {instanceID: 11286}
-    - Class: 114
-      Script: {instanceID: 11862}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 124
-      Script: {instanceID: 0}
-    - Class: 128
-      Script: {instanceID: 0}
-    - Class: 134
-      Script: {instanceID: 0}
-    - Class: 135
-      Script: {instanceID: 0}
-    - Class: 136
-      Script: {instanceID: 0}
-    - Class: 157
-      Script: {instanceID: 0}
-    - Class: 213
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -579,6 +538,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: UnityStandardAssets.ImageEffects
     className: VignetteAndChromaticAberration
+  - hash:
+      serializedVersion: 2
+      Hash: 71b6ca63bc44f45636c16894a9733c4b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Garagedoorpen
   - hash:
       serializedVersion: 2
       Hash: 1479a28460ac4555102a0bb4c1e87a2b
@@ -2033,6 +1998,12 @@ ScriptsOnlyBuild:
     className: DrillController
   - hash:
       serializedVersion: 2
+      Hash: 36c8230392d284bc8e8bbcca5fa6e840
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Rotateview
+  - hash:
+      serializedVersion: 2
       Hash: 5f93aa9d46beca8342d0af5c30ebda50
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -2213,6 +2184,12 @@ ScriptsOnlyBuild:
     className: UDTEventHandler
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Checkinterior
+  - hash:
+      serializedVersion: 2
       Hash: c312fcfdc704c07bde804c0cf8b879eb
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -2223,6 +2200,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: UnityStandardAssets.CrossPlatformInput
     className: MobileControlRig
+  - hash:
+      serializedVersion: 2
+      Hash: 239b085a041855068b5c4419f0db47c4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: myrotate3
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -2517,6 +2500,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: UnityStandardAssets.Water
     className: Water
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Movescript
   - hash:
       serializedVersion: 2
       Hash: d7f470660e8e5bf322a5c170b752eff8
@@ -2853,6 +2842,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: UnityStandardAssets.Vehicles.Car
     className: CarAudio
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Havelockmodelrotate
   - hash:
       serializedVersion: 2
       Hash: 77ffc8f4226334e9f550086ebdd12841
@@ -3545,6 +3540,12 @@ ScriptsOnlyBuild:
     className: Tonemapping
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: myrotate4
+  - hash:
+      serializedVersion: 2
       Hash: 330f62fcfa21b2047340eab154927cfc
     assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
@@ -3785,30 +3786,35 @@ ScriptsOnlyBuild:
     className: AutoMobileShaderSwitch
   - hash:
       serializedVersion: 2
-      Hash: 1f98c6cf1222a7f2394db935fd86eeb0
+      Hash: fa25d34c45760e767db273fd71f373c2
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: Garagedoorpen
+    className: SHAPECHANGECONTROL
   - hash:
       serializedVersion: 2
-      Hash: 239b085a041855068b5c4419f0db47c4
-    assemblyName: Assembly-CSharp.dll
+      Hash: 961fc4e6a4f823cdb92755c9a435090a
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: 
-    className: myrotate3
+    className: FCP_SpriteMeshEditor
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
+      Hash: 3d18c68c03b17c03ce9c88f04c7bc716
+    assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: 
-    className: myrotate4
+    className: FlexibleColorPicker
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 84b024dc5e39dfd8403903f432d80c7c
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: 
+    className: FCP_ExampleScript
+  - hash:
+      serializedVersion: 2
+      Hash: 47e3afae76e12696af0f0c304c8c1340
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: Havelockmodelrotate
+    className: Applycolor
   platform: 13
   scenePathNames:
   - Assets/Scenes/1st one.unity
-  - Assets/Scenes/first person interior.unity
   playerPath: D:/final year project/3.apk

@@ -15,6 +15,9 @@ TagManager:
   - myhousewalls
   - myhousefloors
   - garagedoor
+  - cube1
+  - cube2
+  - treewithoutleaves
   layers:
   - Default
   - TransparentFX

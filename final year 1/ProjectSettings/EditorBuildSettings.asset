@@ -53,7 +53,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/1st one.unity
     guid: f6d496ab4b63e2e4697c28b60b6570b0
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/first person interior.unity
     guid: d0e84dbf3d1f27b448c1a2fb941480d3
+  - enabled: 0
+    path: Assets/Scenes/New Scene.unity
+    guid: a5a98da1fc7d26f4a88c996fe6ed2881
   m_configObjects: {}

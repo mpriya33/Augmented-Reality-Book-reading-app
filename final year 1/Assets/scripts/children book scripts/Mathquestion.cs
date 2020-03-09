@@ -22,7 +22,7 @@ public class Mathquestion : MonoBehaviour
 
         
         question1 = GameObject.Find("question1");
-
+        
         question2 = GameObject.Find("question2");
         question2.SetActive(false);
 
@@ -129,7 +129,7 @@ public class Mathquestion : MonoBehaviour
 
         IEnumerator Removedaftertime(int seconds, GameObject obj)
         {
-            yield return new WaitForSeconds(2);
+            yield return new WaitForSeconds(seconds);
             obj.SetActive(false);
         }
 
