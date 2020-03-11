@@ -18,6 +18,8 @@ TagManager:
   - cube1
   - cube2
   - treewithoutleaves
+  - leaves
+  - grass
   layers:
   - Default
   - TransparentFX

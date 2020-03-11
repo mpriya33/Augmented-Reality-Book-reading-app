@@ -4,11 +4,11 @@ ScriptsOnlyBuild:
     - FCP_SpriteMeshEditor
     - FlexibleColorPicker
     - Lean.Touch.LeanDragDeformMesh
+    - Lean.Touch.LeanDragTranslate
     - Lean.Touch.LeanFingerTap
     - Lean.Touch.LeanPinchScale
     - Lean.Touch.LeanSelect
     - Lean.Touch.LeanSelectable
-    - Lean.Touch.LeanSelectableRendererColor
     - Lean.Touch.LeanTouch
     - Lean.Touch.LeanTwistRotateAxis
     Assembly-CSharp.dll:
@@ -128,15 +128,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9692}
+      Script: {instanceID: 9630}
     - Class: 114
-      Script: {instanceID: 9708}
+      Script: {instanceID: 9696}
     - Class: 114
-      Script: {instanceID: 9762}
+      Script: {instanceID: 9712}
     - Class: 114
-      Script: {instanceID: 9824}
-    - Class: 114
-      Script: {instanceID: 9826}
+      Script: {instanceID: 9766}
     - Class: 114
       Script: {instanceID: 9828}
     - Class: 114
@@ -146,35 +144,37 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9834}
     - Class: 114
+      Script: {instanceID: 9836}
+    - Class: 114
       Script: {instanceID: 9838}
     - Class: 114
       Script: {instanceID: 9842}
     - Class: 114
       Script: {instanceID: 9846}
     - Class: 114
-      Script: {instanceID: 9848}
+      Script: {instanceID: 9850}
     - Class: 114
-      Script: {instanceID: 9854}
+      Script: {instanceID: 9852}
     - Class: 114
-      Script: {instanceID: 9874}
+      Script: {instanceID: 9858}
     - Class: 114
-      Script: {instanceID: 9882}
-    - Class: 114
-      Script: {instanceID: 9884}
+      Script: {instanceID: 9878}
     - Class: 114
       Script: {instanceID: 9886}
     - Class: 114
-      Script: {instanceID: 9904}
+      Script: {instanceID: 9888}
     - Class: 114
-      Script: {instanceID: 9952}
+      Script: {instanceID: 9890}
     - Class: 114
-      Script: {instanceID: 9966}
+      Script: {instanceID: 9908}
     - Class: 114
-      Script: {instanceID: 9968}
+      Script: {instanceID: 9956}
     - Class: 114
       Script: {instanceID: 9970}
     - Class: 114
-      Script: {instanceID: 9980}
+      Script: {instanceID: 9972}
+    - Class: 114
+      Script: {instanceID: 9974}
     - Class: 114
       Script: {instanceID: 9984}
     - Class: 114
@@ -182,100 +182,98 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9992}
     - Class: 114
-      Script: {instanceID: 10026}
+      Script: {instanceID: 9996}
     - Class: 114
-      Script: {instanceID: 10036}
+      Script: {instanceID: 10030}
     - Class: 114
-      Script: {instanceID: 10084}
+      Script: {instanceID: 10040}
     - Class: 114
-      Script: {instanceID: 10138}
+      Script: {instanceID: 10088}
     - Class: 114
-      Script: {instanceID: 10314}
+      Script: {instanceID: 10142}
     - Class: 114
-      Script: {instanceID: 10386}
+      Script: {instanceID: 10318}
     - Class: 114
-      Script: {instanceID: 10452}
+      Script: {instanceID: 10390}
     - Class: 114
-      Script: {instanceID: 10474}
+      Script: {instanceID: 10456}
     - Class: 114
-      Script: {instanceID: 10480}
+      Script: {instanceID: 10478}
     - Class: 114
-      Script: {instanceID: 10494}
+      Script: {instanceID: 10484}
     - Class: 114
-      Script: {instanceID: 10504}
+      Script: {instanceID: 10498}
     - Class: 114
-      Script: {instanceID: 10526}
+      Script: {instanceID: 10508}
     - Class: 114
-      Script: {instanceID: 10564}
+      Script: {instanceID: 10530}
     - Class: 114
-      Script: {instanceID: 10586}
+      Script: {instanceID: 10568}
     - Class: 114
-      Script: {instanceID: 10594}
+      Script: {instanceID: 10590}
+    - Class: 114
+      Script: {instanceID: 10598}
+    - Class: 114
+      Script: {instanceID: 10650}
     - Class: 114
       Script: {instanceID: 10670}
     - Class: 114
-      Script: {instanceID: 10760}
+      Script: {instanceID: 10678}
     - Class: 114
-      Script: {instanceID: 10904}
+      Script: {instanceID: 10768}
     - Class: 114
-      Script: {instanceID: 10920}
+      Script: {instanceID: 10912}
     - Class: 114
-      Script: {instanceID: 10940}
+      Script: {instanceID: 10928}
     - Class: 114
-      Script: {instanceID: 10998}
+      Script: {instanceID: 10948}
     - Class: 114
-      Script: {instanceID: 11030}
+      Script: {instanceID: 11006}
     - Class: 114
-      Script: {instanceID: 11054}
+      Script: {instanceID: 11038}
     - Class: 114
-      Script: {instanceID: 11176}
+      Script: {instanceID: 11062}
     - Class: 114
-      Script: {instanceID: 11180}
+      Script: {instanceID: 11184}
     - Class: 114
-      Script: {instanceID: 11192}
+      Script: {instanceID: 11188}
     - Class: 114
       Script: {instanceID: 11200}
     - Class: 114
-      Script: {instanceID: 11214}
+      Script: {instanceID: 11208}
     - Class: 114
-      Script: {instanceID: 11310}
+      Script: {instanceID: 11222}
     - Class: 114
-      Script: {instanceID: 11316}
+      Script: {instanceID: 11318}
     - Class: 114
-      Script: {instanceID: 11420}
+      Script: {instanceID: 11324}
     - Class: 114
-      Script: {instanceID: 11460}
+      Script: {instanceID: 11428}
     - Class: 114
-      Script: {instanceID: 11660}
+      Script: {instanceID: 11468}
     - Class: 114
-      Script: {instanceID: 11690}
+      Script: {instanceID: 11668}
     - Class: 114
-      Script: {instanceID: 11700}
+      Script: {instanceID: 11698}
     - Class: 114
-      Script: {instanceID: 11782}
+      Script: {instanceID: 11704}
     - Class: 114
-      Script: {instanceID: 11798}
+      Script: {instanceID: 11710}
     - Class: 114
-      Script: {instanceID: 12046}
+      Script: {instanceID: 11792}
     - Class: 114
-      Script: {instanceID: 12070}
+      Script: {instanceID: 11808}
     - Class: 114
-      Script: {instanceID: 12082}
+      Script: {instanceID: 11876}
     - Class: 114
-      Script: {instanceID: 12086}
+      Script: {instanceID: 12056}
     - Class: 114
-      Script: {instanceID: 193580}
+      Script: {instanceID: 12080}
     - Class: 114
-      Script: {instanceID: 247360}
-    - Class: 114
-      Script: {instanceID: 247362}
-    - Class: 114
-      Script: {instanceID: 248992}
+      Script: {instanceID: 12092}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
-      Script: {instanceID: 0}
-    - Class: 135
       Script: {instanceID: 0}
     - Class: 136
       Script: {instanceID: 0}
@@ -346,6 +344,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: 961fc4e6a4f823cdb92755c9a435090a
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: 
+    className: FCP_SpriteMeshEditor
   - hash:
       serializedVersion: 2
       Hash: a1c00d1e10cbc9ad31c5a155293e0dbc
@@ -1884,6 +1888,12 @@ ScriptsOnlyBuild:
     className: SimpleAnimation
   - hash:
       serializedVersion: 2
+      Hash: cfd548441b8cc56e88d599881b4edc64
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Applycolor
+  - hash:
+      serializedVersion: 2
       Hash: ca2ca37ebdd5efb3348ba65185071cb5
     assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
@@ -1912,6 +1922,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: UnityStandardAssets.CrossPlatformInput
     className: InputAxisScrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: 3d18c68c03b17c03ce9c88f04c7bc716
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: 
+    className: FlexibleColorPicker
   - hash:
       serializedVersion: 2
       Hash: d7bc2b4e85ce46723a80c1bc49f3798b
@@ -3060,6 +3076,12 @@ ScriptsOnlyBuild:
     className: LeanFingerTap
   - hash:
       serializedVersion: 2
+      Hash: 93376649573e562d06247140da7ea9a8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SHAPECHANGECONTROL
+  - hash:
+      serializedVersion: 2
       Hash: 833ca6891b09902182ac3a3ca19ab24e
     assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: Lean.Touch
@@ -3564,6 +3586,12 @@ ScriptsOnlyBuild:
     className: CharacterMotor
   - hash:
       serializedVersion: 2
+      Hash: 84b024dc5e39dfd8403903f432d80c7c
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: 
+    className: FCP_ExampleScript
+  - hash:
+      serializedVersion: 2
       Hash: 5e869f601eca6873b969dceef87d6303
     assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: UnityStandardAssets._2D
@@ -3784,36 +3812,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: UnityStandardAssets.Utility
     className: AutoMobileShaderSwitch
-  - hash:
-      serializedVersion: 2
-      Hash: fa25d34c45760e767db273fd71f373c2
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SHAPECHANGECONTROL
-  - hash:
-      serializedVersion: 2
-      Hash: 961fc4e6a4f823cdb92755c9a435090a
-    assemblyName: Assembly-CSharp-firstpass.dll
-    namespaceName: 
-    className: FCP_SpriteMeshEditor
-  - hash:
-      serializedVersion: 2
-      Hash: 3d18c68c03b17c03ce9c88f04c7bc716
-    assemblyName: Assembly-CSharp-firstpass.dll
-    namespaceName: 
-    className: FlexibleColorPicker
-  - hash:
-      serializedVersion: 2
-      Hash: 84b024dc5e39dfd8403903f432d80c7c
-    assemblyName: Assembly-CSharp-firstpass.dll
-    namespaceName: 
-    className: FCP_ExampleScript
-  - hash:
-      serializedVersion: 2
-      Hash: 47e3afae76e12696af0f0c304c8c1340
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Applycolor
   platform: 13
   scenePathNames:
   - Assets/Scenes/1st one.unity
